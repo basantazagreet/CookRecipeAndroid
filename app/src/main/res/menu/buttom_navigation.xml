@@ -13,6 +13,11 @@
 
 
     <item
+        android:id="@+id/nav_addrecipe"
+        android:icon="@drawable/ic_addrecipe"
+        android:title="Add recipe" />
+
+    <item
         android:id="@+id/nav_favorites"
         android:icon="@drawable/ic_favourites"
         android:title="Favorites" />

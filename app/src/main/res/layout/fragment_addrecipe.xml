@@ -4,27 +4,24 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_red_light"
     android:orientation="vertical"
+
     >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home Fragment"
-        android:textSize="30sp"
-        android:layout_marginTop="40dp"
+        android:text="Add Recipe Form"
+        android:textSize="35sp"
         android:textColor="#fff"
+        android:layout_marginTop="30dp"
         android:layout_gravity="center_horizontal"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="5 recycler views will go here"
-        android:textSize="24sp"
-        android:layout_marginTop="40dp"
-        android:textColor="#fff"
-        android:layout_gravity="center_horizontal"
-        />
+
+
+
+
+
 
 
 </LinearLayout>

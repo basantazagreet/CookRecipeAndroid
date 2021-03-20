@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical"
+    android:background="#e72d23"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:text="Food Recipe Signup"
+                android:fontFamily="cursive"
+                android:textColor="#fff"
+                android:textSize="38dp"
+                android:textStyle="bold"
+                android:shadowColor="#fff"
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/etfocus"
+                android:paddingVertical="7sp"
+                android:textCursorDrawable="@null"
+                android:id="@+id/etname"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/etfocus"
+                android:paddingVertical="7sp"
+                android:inputType="textEmailAddress"
+                android:textCursorDrawable="@null"
+                android:id="@+id/etemail"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/etfocus"
+                android:paddingVertical="7sp"
+                android:textCursorDrawable="@null"
+                android:id="@+id/address"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/etfocus"
+                android:paddingVertical="7sp"
+                android:inputType="phone"
+                android:textCursorDrawable="@null"
+                android:id="@+id/phone"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Choose Username"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/etfocus"
+                android:paddingVertical="7sp"
+                android:textCursorDrawable="@null"
+                android:id="@+id/etusername"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Choose Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/etfocus"
+                android:paddingVertical="7sp"
+                android:textCursorDrawable="@null"
+                android:id="@+id/etpassword"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-type Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/etfocus"
+                android:paddingVertical="7sp"
+                android:textCursorDrawable="@null"
+                android:id="@+id/etretype"
+                />
+
+
+            <Button
+                android:id="@+id/btlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                android:background="@drawable/button_background"
+                android:text="Sign Up"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:textColor="#fff"
+
+                />
+
+            <Button
+                android:id="@+id/btcancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                android:background="@drawable/button_background"
+                android:text="Cancel"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="40dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
