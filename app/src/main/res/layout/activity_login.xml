@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
     android:orientation="vertical"
-    android:background="#e72d23"
+    android:background="#a9a9a9"
     >
 
 
@@ -17,7 +17,7 @@
         android:layout_marginTop="70dp"
         android:text="Food Recipe Login"
         android:fontFamily="cursive"
-        android:textColor="#fff"
+        android:textColor="#e72d23"
         android:textSize="38dp"
         android:textStyle="bold"
         android:shadowColor="#fff"
@@ -94,7 +94,7 @@
         android:text="No account yet? Signup Here"
         android:layout_marginTop="40dp"
         android:textSize="20dp"
-        android:textColor="#fff"
+        android:textColor="#E72D23"
         android:layout_gravity="center_horizontal"
         android:id="@+id/tvgotosignup"
         />

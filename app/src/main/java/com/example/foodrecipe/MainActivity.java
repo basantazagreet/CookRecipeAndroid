@@ -13,6 +13,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
+    //rid sidhai database ko recipe ko id ho
+    int rid=5;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,5 +73,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //Recipe haru click gare uta jani banako
+    public void seeRecipe(View view){
+        Intent i = new Intent(this, SeeRecipeActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putString("id", String.valueOf(rid));
+        i.putExtras(bundle);
+
+        startActivity(i);
+    }
 
 }

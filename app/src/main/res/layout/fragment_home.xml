@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light"
+    android:background="#f2f2f2"
     android:orientation="vertical"
     >
 
@@ -12,7 +12,7 @@
         android:text="Home Fragment"
         android:textSize="30sp"
         android:layout_marginTop="40dp"
-        android:textColor="#fff"
+        android:textColor="#e72d23"
         android:layout_gravity="center_horizontal"
         />
 
@@ -22,8 +22,21 @@
         android:text="5 recycler views will go here"
         android:textSize="24sp"
         android:layout_marginTop="40dp"
-        android:textColor="#fff"
+        android:textColor="#e72d23"
         android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View a Recipe"
+        android:background="@drawable/button_background"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:onClick="seeRecipe"
+
         />
 
 
